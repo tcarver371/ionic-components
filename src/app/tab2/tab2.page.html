@@ -1,9 +1,29 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Example of an Input
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+
+<ion-content>
+	<ion-item>
+		<ion-input type = "number" value = "numValue" placeholder = "Enter a number between 1 and 10"></ion-input>
+	</ion-item>
+	<p>Did you notice that you can only enter number values and not letters?</p>
+	<ion-item>
+		<ion-label>Yes</ion-label>
+		<ion-radio value = "Yes"></ion-radio>
+	</ion-item>
+	<p>Select your favorite animal</p>
+	<ion-item>
+		<ion-select>
+			<ion-select-option>Cat</ion-select-option>
+			<ion-select-option>Dog</ion-select-option>
+			<ion-select-option>Horse</ion-select-option>
+			<ion-select-option>Rabbit</ion-select-option>
+			<ion-select-option>Chicken</ion-select-option>
+		</ion-select>
+	</ion-item>
+</ion-content>
